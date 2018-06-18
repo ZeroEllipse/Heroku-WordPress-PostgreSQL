@@ -87,7 +87,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand custom_navbar-brand" href="#"><img src="wp-content/themes/GreenFair/img/logo.png" alt=""></a>
+                                <a class="navbar-brand custom_navbar-brand" href="#"><img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/logo.png" alt=""></a>
                             </div>
                             <!--End of navbar-header-->
 
