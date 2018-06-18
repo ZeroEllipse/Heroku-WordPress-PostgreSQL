@@ -15,7 +15,7 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="slider_overlay">
-                            <img src="wp-content/themes/GreenFair/img/img1.jpg" alt="...">
+                            <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/img1.jpg" alt="...">
                             <div class="carousel-caption">
                                 <div class="slider_text">
                                     <h3>Protect</h3>
@@ -29,7 +29,7 @@
                     <!--End of item With Active-->
                     <div class="item">
                         <div class="slider_overlay">
-                            <img src="wp-content/themes/GreenFair/img/img2.jpg" alt="...">
+                            <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/img2.jpg" alt="...">
                             <div class="carousel-caption">
                                 <div class="slider_text">
                                     <h3>Protect</h3>
@@ -43,7 +43,7 @@
                     <!--End of Item-->
                     <div class="item">
                         <div class="slider_overlay">
-                            <img src="wp-content/themes/GreenFair/img/img3.jpg" alt="...">
+                            <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/img3.jpg" alt="...">
                             <div class="carousel-caption">
                                 <div class="slider_text">
                                     <h3>Protect</h3>
