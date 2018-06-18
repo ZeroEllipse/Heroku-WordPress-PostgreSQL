@@ -14,22 +14,22 @@
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
         <!--Fontawesom-->
-        <link rel="stylesheet" href="wp-content/themes/GreenFair/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo esc_url (get_template_directory_uri()); ?>/css/font-awesome.min.css">
 
         <!--Animated CSS-->
-        <link rel="stylesheet" type="text/css" href="wp-content/themes/GreenFair/css/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo esc_url (get_template_directory_uri()); ?>/css/animate.min.css">
 
         <!-- Bootstrap -->
-        <link href="wp-content/themes/GreenFair/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo esc_url (get_template_directory_uri()); ?>/css/bootstrap.min.css" rel="stylesheet">
         <!--Bootstrap Carousel-->
-        <link type="text/css" rel="stylesheet" href="wp-content/themes/GreenFair/css/carousel.css" />
+        <link type="text/css" rel="stylesheet" href="<?php echo esc_url (get_template_directory_uri()); ?>/css/carousel.css" />
 
-        <link rel="stylesheet" href="wp-content/themes/GreenFair/css/isotope/style.css">
+        <link rel="stylesheet" href="<?php echo esc_url (get_template_directory_uri()); ?>/css/isotope/style.css">
 
         <!--Main Stylesheet-->
-        <link href="wp-content/themes/GreenFair/style.css" rel="stylesheet">
+        <link href="<?php echo esc_url (get_template_directory_uri()); ?>/style.css" rel="stylesheet">
         <!--Responsive Framework-->
-        <link href="wp-content/themes/GreenFair/css/responsive.css" rel="stylesheet">
+        <link href="<?php echo esc_url (get_template_directory_uri()); ?>/css/responsive.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
