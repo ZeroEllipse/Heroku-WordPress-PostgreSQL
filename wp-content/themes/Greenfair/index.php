@@ -1,3 +1,4 @@
+
 <?php get_header(); ?>
 
 
@@ -217,31 +218,31 @@
                                     <div class="img_overlay">
                                         <p>Sun Homes, Dhaka</p>
                                     </div>
-                                    <img src="wp-content/themes/GreenFair/img/environment.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/environment.jpg" alt="">
                                 </div>
                                 <div class="note red">
                                     <div class="img_overlay">
                                         <p>Sun Homes, Dhaka</p>
                                     </div>
-                                    <img src="wp-content/themes/GreenFair/img/portfolio_1.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/portfolio_1.jpg" alt="">
                                 </div>
                                 <div class="note green">
                                     <div class="img_overlay">
                                         <p>Sun Homes, Dhaka</p>
                                     </div>
-                                    <img src="wp-content/themes/GreenFair/img/cliemate.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/cliemate.jpg" alt="">
                                 </div>
                                 <div class="note yellow">
                                     <div class="img_overlay">
                                         <p>Sun Homes, Dhaka</p>
                                     </div>
-                                    <img src="wp-content/themes/GreenFair/img/photography.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/photography.jpg" alt="">
                                 </div>
                                 <div class="note black">
                                     <div class="img_overlay">
                                         <p>Sun Homes, Dhaka</p>
                                     </div>
-                                    <img src="wp-content/themes/GreenFair/img/species.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/species.jpg" alt="">
                                 </div>
                             </div>
                             <!--End of notes-->
@@ -276,7 +277,7 @@
                         <div class="col-md-3">
                             <div class="counter_item text-center">
                                 <div class="sigle_counter_item">
-                                    <img src="wp-content/themes/GreenFair/img/tree.png" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree.png" alt="">
                                     <div class="counter_text">
                                         <span class="counter">1542</span>
                                         <p>tree cut</p>
@@ -287,7 +288,7 @@
                         <div class="col-md-3">
                             <div class="counter_item text-center">
                                 <div class="sigle_counter_item">
-                                    <img src="wp-content/themes/GreenFair/img/hand.png" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/hand.png" alt="">
                                     <div class="counter_text">
                                         <span class="counter">1458</span>
                                         <p>animal lost</p>
@@ -298,7 +299,7 @@
                         <div class="col-md-3">
                             <div class="counter_item text-center">
                                 <div class="sigle_counter_item">
-                                    <img src="wp-content/themes/GreenFair/img/tuhnder.png" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tuhnder.png" alt="">
                                     <div class="counter_text">
                                         <span class="counter">9854</span>
                                         <p>blubs collected</p>
@@ -309,7 +310,7 @@
                         <div class="col-md-3">
                             <div class="counter_item text-center">
                                 <div class="sigle_counter_item">
-                                    <img src="wp-content/themes/GreenFair/img/cloud.png" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/cloud.png" alt="">
                                     <div class="counter_text">
                                         <span class="counter">5412</span>
                                         <p>water level</p>
@@ -345,7 +346,7 @@
                             <div class="col-md-6 zero_mp">
                                 <div class="event_item">
                                     <div class="event_img">
-                                        <img src="wp-content/themes/GreenFair/img/tree_cut_1.jpg" alt="">
+                                        <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_1.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -375,7 +376,7 @@
                             <div class="col-md-6 zero_mp">
                                 <div class="event_item">
                                     <div class="event_img">
-                                        <img src="wp-content/themes/GreenFair/img/tree_cut_2.jpg" alt="">
+                                        <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_2.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -387,7 +388,7 @@
                         <div class="event_news">
                             <div class="event_single_item fix">
                                 <div class="event_news_img floatleft">
-                                    <img src="wp-content/themes/GreenFair/img/tree_cut_3.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_3.jpg" alt="">
                                 </div>
                                 <div class="event_news_text">
                                     <a href="#"><h4>Let’s plant 200 tree each...</h4></a>
@@ -398,7 +399,7 @@
                         <div class="event_news">
                             <div class="event_single_item fix">
                                 <div class="event_news_img floatleft">
-                                    <img src="wp-content/themes/GreenFair/img/tree_cut_4.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_4.jpg" alt="">
                                 </div>
                                 <div class="event_news_text">
                                     <a href="#"><h4>Keep your house envirome..</h4></a>
@@ -409,7 +410,7 @@
                         <div class="event_news">
                             <div class="event_single_item fix">
                                 <div class="event_news_img floatleft">
-                                    <img src="wp-content/themes/GreenFair/img/tree_cut_3.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_3.jpg" alt="">
                                 </div>
                                 <div class="event_news_text">
                                     <a href="#"><h4>Urgent Clothe Needed Needed</h4></a>
@@ -420,7 +421,7 @@
                         <div class="event_news">
                             <div class="event_single_item fix">
                                 <div class="event_news_img floatleft">
-                                    <img src="wp-content/themes/GreenFair/img/tree_cut_4.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_4.jpg" alt="">
                                 </div>
                                 <div class="event_news_text">
                                     <a href="#"><h4>One Tree Thousand Hope</h4></a>
@@ -431,7 +432,7 @@
                         <div class="event_news">
                             <div class="event_single_item fix">
                                 <div class="event_news_img floatleft">
-                                    <img src="wp-content/themes/GreenFair/img/tree_cut_3.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_3.jpg" alt="">
                                 </div>
                                 <div class="event_news_text">
                                     <a href="#"><h4>One Tree Thousand Hope</h4></a>
@@ -479,7 +480,7 @@
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="profile-circle">
-                                                            <img src="wp-content/themes/GreenFair/img/tree_cut_3.jpg" alt="">
+                                                            <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_3.jpg" alt="">
                                                         </div>
                                                         <div class="testimonial_content">
                                                             <i class="fa fa-quote-left"></i>
@@ -492,7 +493,7 @@
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="profile-circle">
-                                                            <img src="wp-content/themes/GreenFair/img/tree_cut_3.jpg" alt="">
+                                                            <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_3.jpg" alt="">
                                                         </div>
                                                         <div class="testimonial_content">
                                                             <i class="fa fa-quote-left"></i>
@@ -510,7 +511,7 @@
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="profile-circle">
-                                                            <img src="wp-content/themes/GreenFair/img/tree_cut_3.jpg" alt="">
+                                                            <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_3.jpg" alt="">
                                                         </div>
                                                         <div class="testimonial_content">
                                                             <i class="fa fa-quote-left"></i>
@@ -523,7 +524,7 @@
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="profile-circle">
-                                                            <img src="wp-content/themes/GreenFair/img/tree_cut_3.jpg" alt="">
+                                                            <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/tree_cut_3.jpg" alt="">
                                                         </div>
                                                         <div class="testimonial_content">
                                                             <i class="fa fa-quote-left"></i>
@@ -572,7 +573,7 @@
                     		<div class="blog_news">
                             <div class="single_blog_item">
                                 <div class="blog_img">
-                                    <a href="<?php the_permalink() ?>"><?php the_post_thumbnail() ?><img src="wp-content/themes/GreenFair/img/climate_effect.jpg" alt=""></a>
+                                    <a href="<?php the_permalink() ?>"><?php the_post_thumbnail() ?><img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/climate_effect.jpg" alt=""></a>
                                 </div>
                                 <div class="blog_content">
                                     <a href=""><h3><?php the_title(); ?> </h3></a>
@@ -603,7 +604,7 @@
                         <div class="blog_news">
                             <div class="single_blog_item">
                                 <div class="blog_img">
-                                    <img src="wp-content/themes/GreenFair/img/air_pollutuon.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/air_pollutuon.jpg" alt="">
                                 </div>
                                 <div class="blog_content">
                                     <a href=""><h3>How to avoid indoor air pollution?</h3></a>
@@ -632,7 +633,7 @@
                         <div class="blog_news">
                             <div class="single_blog_item">
                                 <div class="blog_img">
-                                    <img src="wp-content/themes/GreenFair/img/threat_bear.jpg" alt="">
+                                    <img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/threat_bear.jpg" alt="">
                                 </div>
                                 <div class="blog_content">
                                     <a href=""><h3>Threat to Yellowstone’s grizzly bears.</h3></a>
@@ -694,22 +695,22 @@
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="market_logo">
-                                        <a href=""><img src="wp-content/themes/GreenFair/img/audiojungle.png" alt=""></a>
+                                        <a href=""><img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/audiojungle.png" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="market_logo">
-                                        <a href=""><img src="wp-content/themes/GreenFair/img/codecanyon.png" alt=""></a>
+                                        <a href=""><img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/codecanyon.png" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="market_logo">
-                                        <a href=""><img src="wp-content/themes/GreenFair/img/graphicriver.png" alt=""></a>
+                                        <a href=""><img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/graphicriver.png" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="market_logo">
-                                        <a href=""><img src="wp-content/themes/GreenFair/img/audiojungle.png" alt=""></a>
+                                        <a href=""><img src="<?php echo esc_url (get_template_directory_uri()); ?>/img/audiojungle.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -812,12 +813,12 @@
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>-->
-        <script src="wp-content/themes/GreenFair/js/jquery-1.12.3.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/jquery-1.12.3.min.js"></script>
 
         <!--Counter UP Waypoint-->
-        <script src="wp-content/themes/GreenFair/js/waypoints.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/waypoints.min.js"></script>
         <!--Counter UP-->
-        <script src="wp-content/themes/GreenFair/js/jquery.counterup.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/jquery.counterup.min.js"></script>
 
         <script>
             //for counter up
@@ -828,7 +829,7 @@
         </script>
 
         <!--Gmaps-->
-        <script src="wp-content/themes/GreenFair/js/gmaps.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/gmaps.min.js"></script>
         <script type="text/javascript">
             var map;
             $(document).ready(function () {
@@ -875,22 +876,22 @@
 
         <!--Isotope-->
      
-        <script src="wp-content/themes/GreenFair/js/isotope/min/scripts-min.js"></script>
-        <script src="wp-content/themes/GreenFair/js/isotope/cells-by-row.js"></script>
-        <script src="wp-content/themes/GreenFair/js/isotope/isotope.pkgd.min.js"></script>
-        <script src="wp-content/themes/GreenFair/js/isotope/packery-mode.pkgd.min.js"></script>
-        <script src="wp-content/themes/GreenFair/js/isotope/scripts.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/isotope/min/scripts-min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/isotope/cells-by-row.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/isotope/isotope.pkgd.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/isotope/packery-mode.pkgd.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/isotope/scripts.js"></script>
 
 
         <!--Back To Top-->
-        <script src="wp-content/themes/GreenFair/js/backtotop.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/backtotop.js"></script>
 
 
         <!--JQuery Click to Scroll down with Menu-->
-        <script src="wp-content/themes/GreenFair/js/jquery.localScroll.min.js"></script>
-        <script src="wp-content/themes/GreenFair/js/jquery.scrollTo.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/jquery.localScroll.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/jquery.scrollTo.min.js"></script>
         <!--WOW With Animation-->
-        <script src="wp-content/themes/GreenFair/js/wow.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/wow.min.js"></script>
         <!--WOW Activated-->
         <script>
             new WOW().init();
@@ -898,9 +899,9 @@
 
 
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="wp-content/themes/GreenFair/js/bootstrap.min.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/bootstrap.min.js"></script>
         <!-- Custom JavaScript-->
-        <script src="wp-content/themes/GreenFair/js/main.js"></script>
+        <script src="<?php echo esc_url (get_template_directory_uri()); ?>/js/main.js"></script>
     </body>
 
 </html>
