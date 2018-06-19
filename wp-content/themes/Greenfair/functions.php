@@ -6,6 +6,9 @@ if (function_exists('add_theme_support')) {
 ?>
 
 <?php
+
+show_admin_bar( false );
+
 if ( ! function_exists( 'Greenfair_setup' ) ) :
 
 	function Greenfair_setup() {
